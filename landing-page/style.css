@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+}
+.image {
+  width: 100%;
+  height: 240px;
+  background-image: url("https://images.unsplash.com/photo-1618477202872-89cec6f8d62e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.left {
+  flex: 1;
+  width: 480px;
+  order: 1;
+}
+.profile-picture {
+  display: block;
+}
+.profile-pic {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  bottom: 80px;
+  left: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.profile-name {
+  padding-left: 144px;
+  margin: auto;
+}
+.profile-description {
+  padding-left: 136px;
+}
+.follow-flex {
+  display: flex;
+  margin-left: 72px;
+  margin-top: 16px;
+}
+.followers-list,
+.following-list,
+.affrection-list {
+  display: block;
+  text-align: center;
+  padding: 8px;
+}
+.hero-paragraph {
+  margin-left: 48px;
+  margin-top: 16px;
+  display: flex;
+  line-height: 1.5;
+}
+.icons {
+  margin-left: 72px;
+  margin-top: 16px;
+}
+.icons a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 16px;
+}
+.right {
+  flex: 1;
+  order: 1;
+  margin: 32px;
+}
+.navbar {
+  margin: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.follow-color {
+  background-color: rgb(49, 183, 217);
+  color: rgb(183, 214, 222);
+  border-radius: 12px;
+  padding: 8px;
+}
+.image-right {
+  display: flex;
+  gap: 8px;
+}
+.image-right {
+  flex-wrap: wrap;
+}
+.image-right img {
+  width: 30%;
+}
+.container {
+  display: flex;
+}
